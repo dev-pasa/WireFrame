@@ -1,0 +1,100 @@
+body{
+  font-family:Helvetica;
+}
+
+/* HEADER */
+
+header{
+  background: #444;
+  height: 100px;
+  margin-bottom: 30px;
+}
+
+nav {
+  width: 960px;
+  margin: 0px auto;
+}
+
+nav img{
+float: left;
+margin-top: 15px;
+margin-right:30px;
+}
+
+nav li{
+  display: inline-block;
+  margin-top:40px;
+  margin-right: 80px;
+}
+
+nav a{
+  text-decoration: none;
+  color: #aaa;
+}
+
+main{
+  width: 960px;
+  margin:0px auto;
+  margin-bottom: 30px;
+}
+
+main li{
+  float:left;
+  margin: 30px 30px 30px 0px;
+}
+
+main li:last-child{
+  margin-right: 0px;
+}
+/*0 px is for top and bottom and auto is for left and right*/
+/* MAIN*/
+
+/* MAIN: SUB BANNERS */
+
+
+/* MAIN: FEATURED SECTION*/
+
+section img{
+  float:left;
+  margin-right: 30px;
+}
+
+section div{
+
+}
+
+section h2{
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+section p{
+  height: 330px;
+  /*overflow: scroll;*/
+  overflow: auto;
+  font-style:italic;
+  line-height: 22px;
+  margin-bottom: 5px;
+}
+
+section button{
+  border: none;
+  color: #fff;
+  background:#000;
+  font-size: 20px;
+  padding: 10px 25px;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: 350ms;
+}
+
+section button:hover{
+  background: slategrey;
+}
+
+/* FOOTER */
+
+footer{
+  background:#444;
+  height: 100px;
+}
